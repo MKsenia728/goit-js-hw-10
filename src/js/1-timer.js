@@ -28,7 +28,7 @@ const validateDate = date => {
     iziToast.show({
       position: 'topRight',
       messageColor: 'white',
-      iconUrl: '../img/bi_x-octagon.png',
+      iconUrl: '../img/icon-error.svg',
       backgroundColor: '#EF4040',
       message: 'Please choose a date in the future',
     });
