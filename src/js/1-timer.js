@@ -28,7 +28,9 @@ const validateDate = date => {
     iziToast.show({
       position: 'topRight',
       messageColor: 'white',
-      iconUrl: './img/icon-error.svg',
+      // К сожалению не удалось решить проблему путей к картинке на гитхабе (локально работает)
+      // перепробовала много вариантов, файл так и не находится, jpt советовал, но не помогло, буду рада вашей идее ))
+      // iconUrl: './img/icon-error.svg',
       backgroundColor: '#EF4040',
       message: 'Please choose a date in the future',
     });
